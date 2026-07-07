@@ -3,6 +3,12 @@ package a_yandex;
 import java.util.*;
 import java.io.*;
 
+/**
+ * Суммирует массивы целых чисел, переданные во 2-й и 4-й строках файла input.txt
+ * так, что в результирующем массиве: s(i) = a(i) + b(i).
+ * Если в каком-то массиве чисел меньше, то добавляются нулевые элементы с начала массива,
+ * а потом проводится суммирование.
+ */
 public class Main {
     private static ArrayList<String> dataLine = new ArrayList<>();
     private static ArrayList<Integer> dataOne = new ArrayList<>();
