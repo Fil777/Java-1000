@@ -4,14 +4,20 @@
 input.txt:
 
 -- String 1
+
 100 222 1234 777
+
 -- String 2
+
 333 4321 223
 
 -- Some other text
+
 -- FINAL --
+
 
 output.txt:
 
 3
+
 100 555 5555 1000 
